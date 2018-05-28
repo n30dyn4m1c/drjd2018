@@ -50,14 +50,13 @@ Header style 1
 .gradient-menu .menuBar .navbar-nav li a:active,
 .gradient-menu .menuBar .navbar-nav li.active a { color: #000000; }
 .gradient-menu.header-position-fixed .md-logo-navbar {	
-background: rgba(163,64,255,1);
-background: -moz-linear-gradient(45deg, rgba(163,64,255,1) 0%, rgba(163,64,255,1) 4%, rgba(163,64,255,1) 12%, rgba(255,58,81,1) 76%, rgba(255,58,81,1) 91%, rgba(255,58,81,1) 100%);
-background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(163,64,255,1)), color-stop(4%, rgba(163,64,255,1)), color-stop(12%, rgba(163,64,255,1)), color-stop(76%, rgba(255,58,81,1)), color-stop(91%, rgba(255,58,81,1)), color-stop(100%, rgba(255,58,81,1)));
-background: -webkit-linear-gradient(45deg, rgba(163,64,255,1) 0%, rgba(163,64,255,1) 4%, rgba(163,64,255,1) 12%, rgba(255,58,81,1) 76%, rgba(255,58,81,1) 91%, rgba(255,58,81,1) 100%);
-background: -o-linear-gradient(45deg, rgba(163,64,255,1) 0%, rgba(163,64,255,1) 4%, rgba(163,64,255,1) 12%, rgba(255,58,81,1) 76%, rgba(255,58,81,1) 91%, rgba(255,58,81,1) 100%);
-background: -ms-linear-gradient(45deg, rgba(163,64,255,1) 0%, rgba(163,64,255,1) 4%, rgba(163,64,255,1) 12%, rgba(255,58,81,1) 76%, rgba(255,58,81,1) 91%, rgba(255,58,81,1) 100%);
-background: linear-gradient(45deg, rgba(163,64,255,1) 0%, rgba(163,64,255,1) 4%, rgba(163,64,255,1) 12%, rgba(255,58,81,1) 76%, rgba(255,58,81,1) 91%, rgba(255,58,81,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a340ff', endColorstr='#ff3a51', GradientType=1 );
+ background: -moz-linear-gradient(48deg, rgba(235,20,91,1) 0%, rgba(254,225,27,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(235,20,91,1)), color-stop(100%, rgba(254,225,27,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(48deg, rgba(235,20,91,1) 0%, rgba(254,225,27,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(48deg, rgba(235,20,91,1) 0%, rgba(254,225,27,1) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(48deg, rgba(235,20,91,1) 0%, rgba(254,225,27,1) 100%); /* ie10+ */
+    background: linear-gradient(42deg, rgba(235,20,91,1) 0%, rgba(254,225,27,1) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee11b', endColorstr='#eb145b',GradientType=0 ); /* ie6-9 */ 
 }
 
 /* black-transparent */
